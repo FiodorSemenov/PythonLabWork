@@ -11,7 +11,7 @@ for i in range(months - 1):
     spend += spend*increase
     money_capital += spend - salary
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", math.ceil(money_capital))
 
 #2
 salary = 5000  # Ежемесячная зарплата
